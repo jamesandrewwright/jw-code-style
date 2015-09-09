@@ -1,0 +1,9 @@
+# Ignore 3rd-party Node modules
+node_modules
+
+# Ignore log files
+*.log
+
+# Ignore Intellij files
+.idea/
+*.iml

@@ -1,0 +1,79 @@
+{
+  "requireCurlyBraces": [
+    "if",
+    "else",
+    "for",
+    "while",
+    "do",
+    "try",
+    "catch"
+  ],
+  "requireSpaceAfterKeywords": [
+    "if",
+    "else",
+    "for",
+    "while",
+    "do",
+    "switch",
+    "return",
+    "try",
+    "catch"
+  ],
+  "requireSpaceBeforeBinaryOperators": [
+    "+",
+    "-",
+    "/",
+    "*",
+    "==",
+    "===",
+    "!=",
+    "!==",
+    ">",
+    ">=",
+    "<",
+    "<="
+  ],
+  "requireSpaceAfterBinaryOperators": [
+    "+",
+    "-",
+    "/",
+    "*",
+    "==",
+    "===",
+    "!=",
+    "!==",
+    ">",
+    ">=",
+    "<",
+    "<="
+  ],
+  "disallowSpaceAfterPrefixUnaryOperators": [
+    "++",
+    "--",
+    "+",
+    "-",
+    "~",
+    "!"
+  ],
+  "disallowSpaceBeforePostfixUnaryOperators": [
+    "++",
+    "--"
+  ],
+  "disallowKeywordsOnNewLine": [
+    "else"
+  ],
+  "requireParenthesesAroundIIFE": true,
+  "disallowEmptyBlocks": true,
+  "disallowSpacesInsideParentheses": true,
+  "requireSpacesInsideObjectBrackets": "all",
+  "disallowQuotedKeysInObjects": "allButReserved",
+  "requireCommaBeforeLineBreak": true,
+  "disallowMultipleLineBreaks": true,
+  "validateQuoteMarks": "\"",
+  "disallowMixedSpacesAndTabs": true,
+  "disallowTrailingWhitespace": true,
+  "requireLineFeedAtFileEnd": true,
+  "excludeFiles": [
+    "./node_modules/**"
+  ]
+}
