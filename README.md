@@ -12,38 +12,41 @@ npm install jw-code-style --save-dev
 
 In gruntfile:
 
+```bash
+npm install jw-code-style --save-dev
+```
 jshint: {
-            src: {
-                src: [
-                    "src/**/!(*.spec).js"
-                ],
-                options: {
-                    jshintrc: "node_modules/jw-code-style/dist/jshint/.src.jshintrc"
-                }
-            },
-            unit: {
-                src: [
-                    "src/**/*.spec.js",
-                    "test/**/*.js"
-                ],
-                options: {
-                    jshintrc: "node_modules/jw-code-style/dist/jshint/.test.jshintrc"
-                }
-            },
-            build: {
-                src: ["Gruntfile.js"],
-                options: {
-                    jshintrc: "node_modules/jw-code-style/dist/jshint/.build.jshintrc"
-                }
-            }
-        },
-        jscs: {
-            src: [
-                "{src,test,grunt}/**/*.js",
-                "Gruntfile.js"
-            ],
-            options: {
-                config: "node_modules/jw-code-style/dist/jscs/.jscs.json"
-            }
-        },
+    src: {
+        src: [
+            "src/**/!(*.spec).js"
+        ],
+        options: {
+            jshintrc: "node_modules/jw-code-style/dist/jshint/.src.jshintrc"
+        }
+    },
+    unit: {
+        src: [
+            "src/**/*.spec.js",
+            "test/**/*.js"
+        ],
+        options: {
+            jshintrc: "node_modules/jw-code-style/dist/jshint/.test.jshintrc"
+        }
+    },
+    build: {
+        src: ["Gruntfile.js"],
+        options: {
+            jshintrc: "node_modules/jw-code-style/dist/jshint/.build.jshintrc"
+        }
+    }
+},
+jscs: {
+    src: [
+        "{src,test,grunt}/**/*.js",
+        "Gruntfile.js"
+    ],
+    options: {
+        config: "node_modules/jw-code-style/dist/jscs/.jscs.json"
+    }
+}
 
