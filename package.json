@@ -8,7 +8,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "postinstall": "grunt"
   },
   "keywords": [
     "code",
