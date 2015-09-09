@@ -1,6 +1,6 @@
 {
   "name": "jw-code-style",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "JSCS and JSHint code formatting and linters config files to share across projects",
   "repository": {
     "type": "git",
