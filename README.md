@@ -12,6 +12,7 @@ npm install jw-code-style --save-dev
 
 In gruntfile:
 
+```bash
 ```jshint: {
     src: {
         src: [
@@ -47,5 +48,6 @@ jscs: {
     }
 }
 ```
+
 
 
