@@ -13,7 +13,7 @@ npm install jw-code-style --save-dev
 In gruntfile:
 
 ```bash
-```jshint: {
+jshint: {
     src: {
         src: [
             "src/**/!(*.spec).js"
