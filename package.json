@@ -1,6 +1,6 @@
 {
   "name": "jw-code-style",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Repository for storing configuration of code formatting and linters to share across projects",
   "repository": {
     "type": "git",
