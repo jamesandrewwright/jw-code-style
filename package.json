@@ -4,7 +4,7 @@
   "description": "Repository for storing configuration of code formatting and linters to share across projects",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/jamesgfc/jw-code-style"
   },
   "main": "index.js",
   "scripts": {
