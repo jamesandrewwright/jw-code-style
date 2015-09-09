@@ -19,7 +19,7 @@ jshint: {
             "src/**/!(*.spec).js"
         ],
         options: {
-            jshintrc: "node_modules/jw-code-style/dist/jshint/.src.jshintrc"
+            jshintrc: "node_modules/jw-code-style/jshint/.src.jshintrc"
         }
     },
     unit: {
@@ -28,13 +28,13 @@ jshint: {
             "test/**/*.js"
         ],
         options: {
-            jshintrc: "node_modules/jw-code-style/dist/jshint/.test.jshintrc"
+            jshintrc: "node_modules/jw-code-style/jshint/.test.jshintrc"
         }
     },
     build: {
         src: ["Gruntfile.js"],
         options: {
-            jshintrc: "node_modules/jw-code-style/dist/jshint/.build.jshintrc"
+            jshintrc: "node_modules/jw-code-style/jshint/.build.jshintrc"
         }
     }
 },
@@ -44,7 +44,7 @@ jscs: {
         "Gruntfile.js"
     ],
     options: {
-        config: "node_modules/jw-code-style/dist/jscs/.jscs.json"
+        config: "node_modules/jw-code-style/jscs/.jscs.json"
     }
 }
 ```
